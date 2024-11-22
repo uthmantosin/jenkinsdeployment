@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "example" {
   bucket = "mwtbucket"
 
   lifecycle {
-    prevent_destroy = false
+    prevent_destroy = true
   }
 }
 
