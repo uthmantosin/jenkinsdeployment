@@ -5,6 +5,15 @@ provider "aws" {
 }
 
 
+// terraform {
+ // backend "s3" {
+   // bucket = "mybucket"
+  //  key    = "terraform.tfstate"
+  //  region = "us-east-1"
+  //}
+//} 
+
+
 # create default vpc if one does not exit
 resource "aws_default_vpc" "default_vpc" {
 
