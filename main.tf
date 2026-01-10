@@ -1,6 +1,6 @@
 provider "aws" {
-  region    = "us-east-1"
-  profile   = "MENWITHTASTE"
+  region = "us-east-1"
+  profile= "MENWITHTASTE"
 }
 
 # custom vpc
